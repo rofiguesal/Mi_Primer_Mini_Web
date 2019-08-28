@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="">
-        <figure>
-          <img class="link" src="images/logo.png" alt="Logo de la pagina">
+        <figure class="logo">
+          <img src="images/logo.png" alt="Logo de la pagina">
         </figure>
-      <nav>
+      <nav class="menu">
         <ol>
           <li>
             <a class="link" href="./portafolio/index.html">Portafolio</a>
@@ -27,42 +27,44 @@
       </nav>
     </div>
     </header>
-    <section>
+    <section class="hero">
       <h1>
         Hola!! Soy Rodrigo <br> Estoy aprendiendo <strong> JS </strong> <br> <strong> HTML y CSS </strong>
       </h1>
       <img src="images/hero.jpg" alt="Imagen principal del sitio" width="500" height="300">
     </section>
-    <section id="portafolio">
+    <section class="portfolio" id="portafolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
-      <article class="">
-        <h3>Platzi video</h3>
-        <h6>React Native / Rect</h6>
-        <p><small><strong>Fecha:</strong> 01/07/2019 </small></p>
-        <p> <small><strong>Puedes verlo en:</strong> Donde quieras </small> </p>
-        <p> Esto ha sido el tabajo de varias horas,
+      <article class="project">
+        <h3 class="project_title">Platzi video</h3>
+        <h6 class="project_course">React Native / Rect</h6>
+        <p class="project_date"><small><strong>Fecha:</strong> 01/07/2019 </small></p>
+        <p class="project_url"> <small><strong>Puedes verlo en:</strong> Donde quieras </small> </p>
+        <p class="project_desciption"> Esto ha sido el tabajo de varias horas,
           en las que he aprendido mucho hacerca de HTML, estoy tratando de aprender mucho más</p>
-        <img src="images/platzi-video-react-native.png" alt="Imagen de react native" width="500">
+      <figure class="project_imageContainer">
+        <img class="project_image" src="images/platzi-video-react-native.png" alt="Imagen de react native" width="500">
+      </figure>
       </article>
     </section>
     <section id="eventos">
       <h2>Más sobre mi experiencia</h2>
-      <article class="">
-        <figure>
-          <img src="images/platzi-conf.jpg" alt="imagen de la experiencia" width="500">
+      <article class="event">
+        <figure class="event_imageContainer">
+          <img class="event_image" src="images/platzi-conf.jpg" alt="image of the experience" width="500">
         </figure>
-        <h3>Mi primer evento 2018</h3>
-        <p>Este es la prueba de un evento imaginario</p>
-        <a href="https://www.youtube.com/watch?v=cpzkcl-OHD4" target="_blank"> Ver Platica </a>
+        <h3 class="event_title">Mi primer evento 2018</h3>
+        <p class="event_description">Este es la prueba de un evento imaginario</p>
+        <a class="event_url" href="https://www.youtube.com/watch?v=cpzkcl-OHD4" target="_blank"> Ver Platica </a>
       </article>
     </section>
-      <section id="Trabajemos juntos">
-        <form class="" action="index.html" method="post">
+      <section class="contact" id="Trabajemos juntos">
+        <form class="form_email" action="index.html" method="post">
           <h3>¿Habra que crear algo jutns?</h3>
           <input type="text" name="Caja email" placeholder="Dejame tu email" id="email">
           <button type="button" name="button">Enviar</button>
         </form>
       </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
   </body>
 </html>
