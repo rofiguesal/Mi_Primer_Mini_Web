@@ -1,7 +1,16 @@
-header {
-  background: pink !important;
-}
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
 
-body{
-  background: red;
-}
+/* selector de etiqueta header - section -article - nav*/
+/* header {
+  background: pink; estas son declaraciones
+  color: red
+}  Todo esto es una regla de css*/ 
+
+/* selector descendente: es un elemento hijo de un selector de etiqueta */
+/* Ej: body header div nav l li a */
+
+/* Selector de clase: . */
