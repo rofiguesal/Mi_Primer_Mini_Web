@@ -8,9 +8,23 @@ valores */
 /* header {
   background: pink; estas son declaraciones
   color: red
-}  Todo esto es una regla de css*/ 
+}  Todo esto es una regla de css*/
 
 /* selector descendente: es un elemento hijo de un selector de etiqueta */
 /* Ej: body header div nav l li a */
 
 /* Selector de clase: . */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+}
