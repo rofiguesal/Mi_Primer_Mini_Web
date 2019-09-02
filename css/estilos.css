@@ -94,3 +94,18 @@ h1 strong {
   color: white;
   text-decoration: none;
 }
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 5px;
+  /* sirve para que que controlemos cuanto se modifican los objetos del display: flex;  */
+  flex-shrink: 0;
+}
