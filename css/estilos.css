@@ -58,13 +58,18 @@ h2 {
 
 .hero {
   height: 300px;
-  background-image: url('../images/hero.jpg');
+  /* background-image: url('../images/hero.jpg'); */
   background-color: #1d252c;
   background-size: 500px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image {
+  object-fit: cover;
 }
 
 .portfolio {
@@ -186,6 +191,7 @@ align-items: center;*/
 
 .event-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .event {
@@ -304,4 +310,14 @@ align-items: center;*/
 
 .footer a {
   color: white;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-wrap: inherit;
 }
