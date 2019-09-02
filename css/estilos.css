@@ -109,3 +109,6 @@ h1 strong {
   /* sirve para que que controlemos cuanto se modifican los objetos del display: flex;  */
   flex-shrink: 0;
 }
+
+/* alinear items de forma vertical:
+align-items: center;*/
