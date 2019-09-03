@@ -66,6 +66,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero-image {
@@ -95,6 +96,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project-course,
@@ -132,6 +134,7 @@ h2 {
   height: 70px;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header a {
@@ -237,6 +240,7 @@ align-items: center;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social {
@@ -302,6 +306,7 @@ align-items: center;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer img {
@@ -314,7 +319,7 @@ align-items: center;*/
 
 .container {
   /* border: 1px solid red; */
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   align-items: inherit;
@@ -323,12 +328,12 @@ align-items: center;*/
 }
 
 @media screen and (max-width: 1024px) {
-  
+
 }
 
 @media screen and (max-width: 768px) {
   body {
-    border: 10px solid green;
+    /* border: 10px solid green; */
   }
 }
 
