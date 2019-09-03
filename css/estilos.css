@@ -417,6 +417,22 @@ align-items: center;*/
   }
 }
 
+.burger-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color: white;
+  /* font-size: 50px; */
+}
+
 @media screen and (max-width: 767px) {
   .header {
     display: block;
@@ -485,6 +501,10 @@ align-items: center;*/
 
   .event img {
     width: 100%;
+  }
+
+  .burger-button {
+    display: block;
   }
 }
 
