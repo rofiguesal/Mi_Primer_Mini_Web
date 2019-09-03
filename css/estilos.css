@@ -333,6 +333,12 @@ align-items: center;*/
   flex-wrap: inherit;
 }
 
+.html-video {
+  width: 100%;
+  height: auto;
+  /* max-width: 100%; */
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     padding: 0 1em;
