@@ -7,7 +7,7 @@ const menu = document.querySelector('.menu');
 const burgerButton = document.querySelector('#burger-menu');
 // console.log(burgerButton);
 
-ipad.addListener(validation)
+ipad.addListener(validation);
 
 
 function hideShow() {
@@ -26,3 +26,5 @@ function validation(event) {
   }
   console.log(event.matches);
 }
+
+validation(ipad);
